@@ -53,7 +53,7 @@
 		tabBarItem.badgeValue = badge;
 		[tabBarItem setBadgeColor:[UIColor clearColor]];
 		if (self.badgeColor) {
-			[tabBarItem setBadgeTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor greenColor], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+			[tabBarItem setBadgeTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blueColor], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
 		}
 		
 		if ([self.badge isEqual:[NSNull null]] || [self.badge isEqualToString:@""]) {
